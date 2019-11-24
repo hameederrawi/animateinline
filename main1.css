@@ -1,22 +1,11 @@
 
-.div {
-display:inline-block;
-width:20%;
-height:100px;
-margin:0;
-}
-#one {
-background:rgb(255, 255, 255);
-}
-#two {
-background:rgb(255, 255, 255);
-}
-#three {
-background:rgb(255, 255, 255);
-}
-#four {
-background-color: rgb(255, 255, 255);
-
+span.b {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+  border: 1px solid blue;    
+  background-color: yellow; 
 }
 
 .box {
@@ -37,8 +26,8 @@ background-color: rgb(255, 255, 255);
 .box:hover {
   
   left: 1px;
-  width: 100px;
-  height: 100px;
+  width: 199px;
+  height: 199px;
   background-color: rgb(245, 24, 8);
   text-align: center;
   
@@ -76,7 +65,7 @@ background-color: rgb(255, 255, 255);
 a {
   display: inline-block;
   color: #e84610;
-  font-size: 8px;
+  font-size: 16px;
   text-decoration: none;
   transition: color 2s  ease-in-out;
   transition-property: font-size;
@@ -84,21 +73,7 @@ a {
     
 a:hover {
     
-    font-size: 16px;
-    
+    font-size: 28px;
     color: rgb(8, 8, 8);
 
-}
-img {
-    animation: spin 1s infinite linear;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
 }

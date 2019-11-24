@@ -21,9 +21,10 @@ background-color: rgb(255, 255, 255);
 
 .box {
   
-  position:relative;
-  left: 0;
-  top: 0px;
+  position:fixed;
+  left: 0px;
+  top: 20px;
+  margin-top: 20px;
   border: 1px solid #000;
   width: 50px;
   height: 50px;
@@ -36,11 +37,12 @@ background-color: rgb(255, 255, 255);
 }
 
 .box:hover {
-  
+  top: 20px;
+  margin-top: 20px;
   left: 1px;
   width: 100px;
   height: 100px;
-  top: 0px;
+  
   background-color: rgb(245, 24, 8);
   text-align: center;
   
@@ -76,7 +78,8 @@ background-color: rgb(255, 255, 255);
 }     
 
 a {
-  
+  position: fixed;
+  margin-top: 25px;
   color: #e84610;
   font-size: 8px;
   text-decoration: none;
@@ -92,7 +95,8 @@ a:hover {
 
 }
 img {
-    height: 100px;
+    position: fixed;
+    margin-top: 15px;
     animation: spin 1s infinite linear;
 }
 
